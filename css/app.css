@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  background-color: #e5e5f2;
+  font-family: Helvetica, sans-serif;
+}
+
+.menu-bar {
+  margin-top: -20px;
+  height: 40px;
+  width: 100%;
+  background-color: #00004c;
+  text-align: center;
+  color: white;
+}
+
+.menu-bar--title {
+
+}
+
+/* Menu icon */
+.menu-icon {
+  display: inline-block;
+  cursor: pointer;
+  float: left;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/*rotate first bar*/
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+/*end menu icon*/
+
+.weatherDetails {
+  text-align: center;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+#currentTemp, .tmpUnitC, .tmpUnitF {
+  display: inline;
+  font-size: 42px;
+  font-weight: 700;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+
+/*Progress bar*/
+
+#sunProgress {
+    position: relative;
+    height: 30px;
+    background-color: grey;
+    text-align: center;
+}
+
+#sunBar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: yellow;
+}
+
+#currentTime {
+  position: absolute;
+  background-color: blue;
+  height: 100%;
+  width: 20px
+}
+
+#sunrise, #sunset {
+  display: inline;
+}
+
+.sunDetails {
+  margin-left: 14%;
+  width: 75%;
+
+}
+
+#nextEvent {
+  text-align: center;
+}
