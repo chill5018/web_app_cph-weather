@@ -1,8 +1,11 @@
-body {
+@import 'bootstrap';
+
+html, body {
   margin: 0;
   background-color: #e5e5f2;
   font-family: Helvetica, sans-serif;
 }
+
 
 .menu-bar {
   margin-top: -20px;
@@ -13,9 +16,10 @@ body {
   color: white;
 }
 
-.menu-bar--title {
 
-}
+.menu-bar--title {}
+
+
 
 /* Menu icon */
 .menu-icon {
@@ -34,15 +38,18 @@ body {
   border-radius: 5px;
 }
 
+
 /*rotate first bar*/
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-9px, 6px);
 }
 
+
 .change .bar2 {
   opacity: 0;
 }
+
 
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
@@ -60,6 +67,7 @@ body {
 .row {
   margin-top: 10px;
 }
+
 
 #currentTemp, .tmpUnitC, .tmpUnitF {
   display: inline;
@@ -79,6 +87,7 @@ body {
     text-align: center;
 }
 
+
 #sunBar {
     position: absolute;
     width: 1%;
@@ -90,7 +99,7 @@ body {
   position: absolute;
   background-color: blue;
   height: 100%;
-  width: 20px
+  width: 20px;
 }
 
 #sunrise, #sunset {
@@ -100,7 +109,6 @@ body {
 .sunDetails {
   margin-left: 14%;
   width: 75%;
-
 }
 
 #nextEvent {

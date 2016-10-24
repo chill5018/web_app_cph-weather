@@ -1,0 +1,44 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "a simple weather app using the openweather api ",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://chill5018@github.com/chill5018/web_app_cph-weather.git"
+  },
+  "keywords": [
+    "weather",
+    "knockout",
+    "sass"
+  ],
+  "author": "Colin Hill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chill5018/web_app_cph-weather/issues"
+  },
+  "homepage": "https://github.com/chill5018/web_app_cph-weather#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.4",
+    "knockout": "^3.4.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "camelcase": "^3.0.0",
+    "css-loader": "^0.24.0",
+    "file-loader": "^0.9.0",
+    "gulp-webserver": "0.9.1",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^3.9.0",
+    "sass-loader": "^4.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.2"
+  }
+}

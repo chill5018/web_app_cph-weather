@@ -1,4 +1,4 @@
-
+import $ from 'jquery'
   function showMenu(x) {
     x.classList.toggle("change");
   };
